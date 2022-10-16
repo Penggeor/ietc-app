@@ -2,9 +2,10 @@ import React, { useEffect } from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { Text } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux'
-import { authenticate } from 'slices/app.slice'
+import { authenticate } from '../slices/app.slice'
 
 import DrawerNavigator from './Drawer'
+import TabNavigator from './Tabs/Tabs'
 
 const Navigator = () => {
   const { checked, loggedIn } = useSelector((state) => state.app)
@@ -19,10 +20,13 @@ const Navigator = () => {
 
   return checked ? (
     <NavigationContainer>
-      <DrawerNavigator />
+      {/* <DrawerNavigator /> */}
+      <TabNavigator />
     </NavigationContainer>
   ) : (
-    <Text>Loading...</Text>
+    <Text>
+      <p>Loading...</p>
+    </Text>
   )
 }
 

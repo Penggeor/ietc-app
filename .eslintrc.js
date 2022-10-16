@@ -15,6 +15,7 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'airbnb',
+    'airbnb-typescript',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
@@ -48,5 +49,7 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'warn',
     'import/no-unresolved': 'warn',
     'import/extensions': 'warn',
+    '@typescript-eslint/semi': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
   },
 }
