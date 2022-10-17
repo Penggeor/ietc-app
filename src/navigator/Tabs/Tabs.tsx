@@ -7,8 +7,9 @@ import { colors } from '../../theme'
 
 // stack navigators
 import { HomeNavigator, ProfileNavigator } from '../Stacks'
-import Home from '../Home'
+import Home from '../../pages/Home'
 import My from '../My'
+import { BottomTabRoute } from './utils'
 
 const Tab = createBottomTabNavigator()
 const BottomTab = createMaterialBottomTabNavigator()
@@ -92,8 +93,8 @@ const TabNavigator = () => (
     //   },
     // })}
   >
-    <BottomTab.Screen name="Home" component={Home} />
-    <BottomTab.Screen name="Profile" component={My} />
+    <BottomTab.Screen name={BottomTabRoute.HOME} component={Home} />
+    <BottomTab.Screen name={BottomTabRoute.MY} component={My} />
   </BottomTab.Navigator>
 )
 

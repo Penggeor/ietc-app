@@ -24,9 +24,7 @@ const Navigator = () => {
       <TabNavigator />
     </NavigationContainer>
   ) : (
-    <Text>
-      <p>Loading...</p>
-    </Text>
+    <Text>Loading...</Text>
   )
 }
 

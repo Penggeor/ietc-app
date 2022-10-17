@@ -51,5 +51,6 @@ module.exports = {
     'import/extensions': 'warn',
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
+    'import/prefer-default-export': 'off',
   },
 }
