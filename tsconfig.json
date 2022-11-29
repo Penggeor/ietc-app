@@ -11,7 +11,15 @@
     "noEmit": true,
     "strict": true,
     "target": "esnext",
-    "outDir": "./build"
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "pages/*": ["src/pages/*"],
+      "components/*": ["src/components/*"],
+      "theme/*": ["src/theme/*"],
+      "utils/*": ["src/utils/*"],
+      "slices/*": ["src/slices/*"]
+    }
   },
   "settings": {
     "import/resolver": {
@@ -23,7 +31,7 @@
   "include": ["src"],
   "exclude": [
     "node_modules",
-    "babel.config.js",
+    "babel.config.json",
     "metro.config.js",
     "jest.config.js"
   ],

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { View } from 'react-native'
 import { Provider } from 'react-redux'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 import store from './utils/store'
 import './utils/ignore'
 
@@ -24,7 +25,9 @@ const App = () => {
 
   return didLoad ? (
     <Provider store={store}>
-      <Navigator />
+      <SafeAreaProvider>
+        <Navigator />
+      </SafeAreaProvider>
     </Provider>
   ) : (
     <View />

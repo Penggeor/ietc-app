@@ -10,7 +10,7 @@ function HomeScreen() {
   )
 }
 
-export default function My() {
+export default function Me() {
   const Stack = createStackNavigator()
 
   return (
