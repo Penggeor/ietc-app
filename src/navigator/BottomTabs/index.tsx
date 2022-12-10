@@ -4,12 +4,15 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import Octicons from '@expo/vector-icons/Octicons'
 import Home from 'pages/Home'
 import Me from 'pages/Me'
+import { useTheme } from '@rneui/themed'
 
 const Tab = createMaterialBottomTabNavigator()
 
 export default function BottomTabs() {
+  const { theme } = useTheme()
+
   return (
-    <Tab.Navigator>
+    <Tab.Navigator barStyle={{ backgroundColor: theme.colors.primary }}>
       <Tab.Screen
         name="Home"
         component={Home}

@@ -1,0 +1,22 @@
+{
+  "common": {
+    "etic": "English Test for International Communication"
+  },
+  "etic": {
+    "fullName": "english test for international communication",
+    "shortName": "etic",
+    "level": {
+      "basic": "basic",
+      "intermediate": "intermediate",
+      "advanced": "advanced",
+      "superior": "superior",
+      "translation": "translation",
+      "consecutive interpreting": "consecutive interpreting",
+      "simultaneous interpreting": "simultaneous interpreting"
+    }
+  },
+  "remain": "remain",
+  "day_zero": "day",
+  "day_one": "day",
+  "day_other": "days"
+}

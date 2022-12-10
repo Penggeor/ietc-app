@@ -1,0 +1,20 @@
+{
+  "common": {
+    "etic": "国际人才英语考试"
+  },
+  "etic": {
+    "fullName": "国际人才英语考试",
+    "shortName": "国才",
+    "level": {
+      "basic": "初级",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "superior": "高端",
+      "translation": "高翻笔译",
+      "consecutive interpreting": "高翻交传",
+      "simultaneous interpreting": "高翻同传"
+    }
+  },
+  "remain": "还有",
+  "day": "天"
+}
