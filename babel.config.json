@@ -5,14 +5,14 @@
       "module-resolver",
       {
         "alias": {
-          "components": "./src/components",
-          "pages": "./src/pages",
-          "theme": "./src/theme",
-          "utils": "./src/utils",
-          "slices": "./src/slices",
-          "style": "./src/style",
-          "navigator": "./src/navigator",
-          "localization": "./src/localization"
+          // "components": "./src/components",
+          // "pages": "./src/pages",
+          // "theme": "./src/theme",
+          // "utils": "./src/utils",
+          // "slices": "./src/slices",
+          // "style": "./src/style",
+          // "navigator": "./src/navigator",
+          // "localization": "./src/localization"
         }
       }
     ],

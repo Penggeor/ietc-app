@@ -14,14 +14,14 @@
     "outDir": "./build",
     "baseUrl": "./",
     "paths": {
-      "pages/*": ["src/pages/*"],
-      "components/*": ["src/components/*"],
-      "theme/*": ["src/theme/*"],
-      "utils/*": ["src/utils/*"],
-      "slices/*": ["src/slices/*"],
-      "style/*": ["src/style/*"],
-      "navigator/*": ["src/navigator/*"],
-      "localization/*": ["src/localization/*"]
+      // "pages/*": ["src/pages/*"],
+      // "components/*": ["src/components/*"],
+      // "theme/*": ["src/theme/*"],
+      // "utils/*": ["src/utils/*"],
+      // "slices/*": ["src/slices/*"],
+      // "style/*": ["src/style/*"],
+      // "navigator/*": ["src/navigator/*"],
+      // "localization/*": ["src/localization/*"]
     }
   },
   "settings": {
@@ -31,7 +31,7 @@
       }
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/@types/.d.ts"],
   "exclude": [
     "node_modules",
     "babel.config.json",

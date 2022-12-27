@@ -15,6 +15,28 @@
       "simultaneous interpreting": "高翻同传"
     }
   },
-  "remain": "还有",
-  "day": "天"
+  "home": {
+    "header": {
+      "remain": "还有",
+      "day": "天"
+    },
+    "cards": {
+      "reciteWord": {
+        "title": "背单词",
+        "description": "中高频核心词汇"
+      },
+      "practiceListening": {
+        "title": "练听力",
+        "description": "反复听，磨听力"
+      },
+      "modelComposition": {
+        "title": "模范作文",
+        "description": "精选各类模范作文"
+      },
+      "mockTest": {
+        "title": "模拟考试",
+        "description": "模拟考试训练"
+      }
+    }
+  }
 }

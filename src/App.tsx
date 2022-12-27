@@ -4,13 +4,13 @@ import { Provider } from 'react-redux'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import 'intl-pluralrules'
 
-import theme, { ThemeProvider } from 'style/theme'
-import store from 'utils/store'
-import 'utils/ignore'
-import { imageAssets } from 'theme/images'
-import { fontAssets } from 'theme/fonts'
-import Navigator from 'navigator/index'
-import 'localization/i18n'
+import theme, { ThemeProvider } from './style/theme'
+import store from './utils/store'
+import './utils/ignore'
+import { imageAssets } from './theme/images'
+import { fontAssets } from './theme/fonts'
+import Navigator from './navigator/index'
+import './localization/i18n'
 
 const App = () => {
   const [didLoad, setDidLoad] = useState(false)

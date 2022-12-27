@@ -15,8 +15,30 @@
       "simultaneous interpreting": "simultaneous interpreting"
     }
   },
-  "remain": "remain",
-  "day_zero": "day",
-  "day_one": "day",
-  "day_other": "days"
+  "home": {
+    "header": {
+      "remain": "remain",
+      "day_zero": "day",
+      "day_one": "day",
+      "day_other": "days"
+    },
+    "cards": {
+      "reciteWord": {
+        "title": "Recite Word",
+        "description": "Medium and high frequency core vocabulary."
+      },
+      "practiceListening": {
+        "title": "Practice Listening",
+        "description": "Listen repeatedly and sharpen your hearing."
+      },
+      "modelComposition": {
+        "title": "Exemplary Composition",
+        "description": "Select all kinds of exemplary compositions."
+      },
+      "mockTest": {
+        "title": "Mock Test",
+        "description": "Simulate the real test and improve your test ability."
+      }
+    }
+  }
 }
